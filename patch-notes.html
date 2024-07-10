@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talkomatic - Patch Notes</title>
+    <meta name="description" content="Discover the latest updates in Talkomatic. Explore redesigned home page, private/public rooms, new chatroom layouts, and improved user policies.">
+    <meta name="keywords" content="Talkomatic, chat platform, online chat, chat rooms, private rooms, public rooms, chat layout, user policy">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Talkomatic v2.3.0.0 - Patch Notes">
+    <meta property="og:description" content="Explore the latest features and redesign in Talkomatic, including new home page, chat layouts, and improved user experience.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://talkomatic.co/version-information.html">
+    <link rel="canonical" href="https://talkomatic.co/version-information.html">
+    <link rel="manifest" href="manifest.json">
+
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #FF9800;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .back-to-lobby {
+            background-color: #FF9800;
+            color: black;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+        .back-to-lobby:hover {
+            background-color: white;
+            color: black;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #FF9800;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .caption {
+            text-align: center;
+            font-size: 1em;
+            color: gray;
+            margin-bottom: 10px;
+        }
+        .section h2 {
+            font-size: 2em;
+            color: #FF9800;
+            margin-bottom: 10px;
+        }
+        .section p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .header h1 {
+                font-size: 2em;
+                margin-bottom: 10px;
+            }
+            .back-to-lobby {
+                width: 100%;
+                text-align: center;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Update Notes</h1>
+            <button class="back-to-lobby" onclick="window.location.href='index.html'">Back to Lobby</button>
+        </div>
+
+        <div class="section">
+            <h2>Update Notes for v2.3.0.0 - June 25, 2024</h2>
+            <p>Welcome to version v2.3.0.0 of Talkomatic! This update brings important bug fixes and exciting new features to enhance your chatting experience:</p>
+        </div>
+        <div class="section">
+            <h2>Bug Fixes</h2>
+            <ul>
+                <li>
+                    <h3>Improved Auto Mod Detection</h3>
+                    <p>Enhanced the auto mod's ability to detect inappropriate content, including better handling of special characters. This ensures a smoother and more accurate moderation process.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>New Features</h2>
+            <ul>
+                <li>
+                    <h3>Avatar Selection</h3>
+                    <p>Users can now select an avatar to appear next to their username. Personalize your chat presence with a variety of avatars to choose from. More comming soon, custom avatars will be available in a future update.</p>
+                    <img src="images/modal2.png" alt="Redesigned Chatroom Page">
+                    <div class="caption">Users can now select from 15 different avatars</div>
+                </li>
+                <li>
+                    <h3>Voting System</h3>
+                    <p>A new voting feature has been added. If the majority of people in a room vote to remove someone, that person will be kicked out. Voting is enabled in rooms with 3 or more people to prevent spam.</p>
+                    <img src="images/chatrooom-avatar-thumbdown.png" alt="Redesigned Chatroom Page">
+                    <div class="caption">Added settings for users to have customization options</div>
+                </li>
+                <li>
+                    <h3>FAQ Section</h3>
+                    <p>The FAQ section has been updated to help users find answers to common questions quickly and easily.</p>
+                </li>
+            </ul>
+        </div>
+        
+
+        <div class="section">
+            <h2>Update Notes for v2.2.0.0 - June 24, 2024</h2>
+            <p>Welcome to version v2.2.0.0 of Talkomatic! This update brings important bug fixes and exciting new features to enhance your chatting experience:</p>
+        </div>
+        <div class="section">
+            <h2>Bug Fixes</h2>
+            <ul>
+                <li>
+                    <h3>Auto Mod Special Characters</h3>
+                    <p>Fixed issues with the auto mod not working or detecting special characters correctly. This ensures a smoother and more accurate moderation process.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>New Features</h2>
+            <ul>
+                <li>
+                    <h3>Redesigned Home Screen</h3>
+                    <p>We've redesigned the home screen to improve user experience. The new layout is more intuitive and user-friendly.</p>
+                    <img src="images/v2.2.0.0.png" alt="Redesigned Chatroom Page">
+                    <div class="caption">Redesigned Home Page to Look More Organized</div>
+                </li>
+                <li>
+                    <h3>Settings Button</h3>
+                    <p>A new settings button has been added, allowing users to customize their chat experience. You can now change the color you are typing in to personalize your messages. More features in settings comming soon.</p>
+                    <img src="images/modal.png" alt="Redesigned Chatroom Page">
+                    <div class="caption">Added settings for user to have customization options</div>
+                </li>
+                <li>
+                    <h3>FAQ Section</h3>
+                    <p>An FAQ section has been added to help users find answers to common questions quickly and easily.</p>
+                </li>
+            </ul>
+        </div>
+        
+
+        <div class="section">
+            <h2>Update Notes for v2.1.1.0 - June 23, 2024</h2>
+            <p>Welcome to version v2.1.1.0 of Talkomatic! This update brings a crucial bug fix to improve your chatting experience:</p>
+        </div>
+        <div class="section">
+            <h2>Bug Fixes</h2>
+            <ul>
+                <li>
+                    <h3>Offensive Word Detection</h3>
+                    <p>Enhanced the offensive language filter to ensure accurate detection of complete offensive words. This prevents partial matches from incorrectly flagging non-offensive words like "hello" or "class".</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Update Notes for v2.1.0.0 - June 22, 2024</h2>
+            <p>Welcome to version v2.1.0.0 of Talkomatic! This update brings several important bug fixes and new features to enhance your chatting experience:</p>
+        </div>
+        
+        <div class="section">
+            <h2>Bug Fixes</h2>
+            <ul>
+                <li>
+                    <h3>Special Characters Handling</h3>
+                    <p>Users can now type any special characters in the chatroom without them converting to random characters. This resolves previous issues with special character inputs.</p>
+                </li>
+                <li>
+                    <h3>Auto Mod Functionality</h3>
+                    <p>Fixed issues where the auto mod would sometimes incorrectly work. The moderation system is now more reliable and accurate.</p>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Features</h2>
+            <ul>
+                <li>
+                    <h3>Invite Users via Link</h3>
+                    <p>Added an option to invite users with a link directly inside the chat. This makes it easier to bring friends and colleagues into your chat rooms.</p>
+                </li>
+                <li>
+                    <h3>Secret Room Key Option</h3>
+                    <p>Added a secret room key option, where the only way users can join is by an invite link. This ensures more private and controlled access to chat rooms.</p>
+                </li>
+
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Update Notes for v2.0.3.0 - June 21, 2024</h2>
+            <p>Welcome to version v2.0.3.0 of Talkomatic! This update brings several important bug fixes and a new feature to enhance your chatting experience:</p>
+        </div>
+        
+        <div class="section">
+            <h2>Bug Fixes</h2>
+            <ul>
+                <li>
+                    <h3>Direct Redirection to Removed Page</h3>
+                    <p>We've fixed an issue where users getting removed would briefly see the homepage before being redirected to removed.html. Now, the redirection happens directly without flashing the homepage.</p>
+                </li>
+                <li>
+                    <h3>Restricted Usernames and Locations</h3>
+                    <p>Usernames and locations that contain banned words are now correctly restricted. Users attempting to use disallowed words will receive an appropriate notification and will not be able to proceed.</p>
+                </li>
+                <li>
+                    <h3>Special Characters Allowed in Names, Locations, and Room Names</h3>
+                    <p>We've resolved the issue where special characters were not allowed in usernames, locations, and room names. You can now include special characters while maintaining the existing character length limit and offensive word checks.</p>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>New Feature</h2>
+            <ul>
+                <li>
+                    <h3>No Public Active Rooms Message</h3>
+                    <p>We've added a feature that displays a message "No public active rooms right now. Create a new room and start the conversation!" if no public rooms are available. This makes it easier for users and provides a better experience than a blank screen.</p>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Looking Ahead</h2>
+            <p>We're continuously working to improve Talkomatic and value your feedback. Stay tuned for more updates and features in the coming weeks. Thank you for being part of our community!</p>
+        </div>
+        
+        
+        <div class="section">
+            <h2>Update Notes for v2.0.2.0 - June 20, 2024</h2>
+            <p>Welcome to v2.0.2.0 of Talkomatic! We're excited to bring you several important bug fixes and new features to enhance your chatting experience. Here's what's new in this update:</p>
+        </div>
+        
+        <div class="section">
+            <h2>Bug Fixes</h2>
+            <h3>Duplicate User Prevention</h3>
+            <p>We've resolved an issue where the same user could appear multiple times in a single room on the same device. This fix ensures a more accurate representation of active users in each room and prevents confusion.</p>
+            <ul>
+                <li>Users can no longer join a room they're already present in from the same device.</li>
+                <li>Attempts to rejoin the same room will result in a notification informing the user they're already in the room and will send them back to the lobby. </li>
+            </ul>
+        </div>
+        
+        <div class="section">
+            <h2>New Features</h2>
+            <h3>Inactivity Management</h3>
+            <p>To maintain active and engaging conversations, we've implemented an inactivity timer:</p>
+            <ul>
+                <li>Users who remain inactive (don't type) for 2 minutes will be automatically removed from the room.</li>
+                <li>This feature helps keep rooms dynamic and frees up space for active participants.</li>
+            </ul>
+        
+            <h3>Join Notification Sound</h3>
+            <p>Enhance your awareness of new participants with our new audio feature:</p>
+            <ul>
+                <li>A subtle sound now plays when a new user joins a room.</li>
+                <li>This audio cue helps you stay informed about new chat participants without the need to constantly monitor the user list.</li>
+            </ul>
+        
+            <h3>Multi-Room Participation</h3>
+            <p>We've expanded Talkomatic's capabilities to allow for more flexible participation:</p>
+            <ul>
+                <li>Users can now join multiple rooms simultaneously by opening Talkomatic in different tabs.</li>
+                <li>This feature allows you to engage in various conversations or monitor multiple rooms at once.</li>
+                <li>Each tab operates independently, maintaining separate room sessions.</li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Looking Ahead</h2>
+            <p>We're continuously working to improve Talkomatic and value your feedback. Stay tuned for more updates and features in the coming weeks. Thank you for being part of our community!</p>
+        </div>
+        <div class="section">
+            <h2>Update Notes for v2.0.1.0 - June 19, 2024</h2>
+            <p>Welcome to v2.0.1.0 of Talkomatic! In this update, we've implemented significant changes and enhancements to improve your user experience. Below are the key updates:</p>
+        </div>
+        <div class="section">
+            <h2>Home Page Redesign</h2>
+            <p>In this version, the home page has been completely redesigned to enhance usability. The left column now has a cleaner look, with all its components functioning correctly. On the right side, new features have been added, including the ability to search for rooms to join and to refresh the room list.</p>
+            <img src="updates/newhome.png" alt="Home Page Redesign">
+            <div class="caption">The redesigned home page</div>
+        </div>
+        <div class="section">
+            <h2>Private and Public Rooms</h2>
+            <p>Private and public rooms now work seamlessly. Users can create and join any room they desire. Private rooms are not displayed in the public room list, ensuring privacy and exclusivity for their participants.</p>
+            <img src="updates/pprooms.png" alt="Private and Public Rooms">
+            <div class="caption">Functioning private and public rooms</div>
+        </div>
+        <div class="section">
+            <h2>Redesigned Chatroom Page</h2>
+            <p>The chatroom page has been redesigned for a better look and additional features. Users can now see the room ID, room number, and room name. Additionally, chats can be set to either vertical or horizontal layouts by pressing the toggle layout button at the top right.</p>
+            <img src="updates/horizotnal-chatroom.png" alt="Redesigned Chatroom Page">
+            <div class="caption">The new horizotnal chatroom layout</div>
+            <img src="updates/vertical chat-room.png" alt="Redesigned Chatroom Page">
+            <div class="caption">The new vertical chatroom layout</div>
+        </div>
+        <div class="section">
+            <h2>Updated User Removal Policy</h2>
+            <p>Instead of a 30-minute ban for typing hateful messages, users are now redirected to a "Removed from Chat" page that explains why they were removed and emphasizes that such behavior is unacceptable. Users can rejoin Talkomatic after 30 seconds.</p>
+        </div>
+        <div class="section">
+            <h2>Improved 'Removed' and 'Why Was I Removed?' Pages</h2>
+            <p>The design of the "Removed" and "Why Was I Removed?" pages has been significantly improved to provide clearer information and a better user experience. These pages now offer more detailed explanations and a more polished interface.</p>
+            <img src="updates/removed.png" alt="Redesigned Chatroom Page">
+            <div class="caption">Redesigned to show more features and styled to mathch the theme of Talkomatic</div>
+            <img src="updates/why-removed.png" alt="Redesigned Chatroom Page">
+            <div class="caption">Redesigned page to show more informaton</div>
+        </div>
+    </div>
+</body>
+</html>
